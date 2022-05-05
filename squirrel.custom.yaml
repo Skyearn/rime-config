@@ -1,0 +1,136 @@
+patch:
+  style:
+    horizontal: true                          # 横排显示
+    color_scheme: System                 # 亮色模式选择配色
+    color_scheme_dark: System_dark            # 暗色模式选择配色
+    display_tray_icon: false                  # 显示托盘图标，macOS 下没啥用
+
+  "preset_color_schemes/System":
+    name: "System"
+    author: "Skyearn"
+    color_space: display_p3                   # 色彩空间
+    back_color: 0xFFFFFF                      # 候选背景色
+    border_color: 0xFFFFFF                    # 候选边框色
+    text_color: 0xFFFFFF                      # 内选文字色
+    hilited_text_color: 0x7B7B7B              # 内选编码色
+    hilited_back_color: 0xFFFFFF              # 内选背景色
+    hilited_candidate_label_color: 0xFFFFFF   # 首选编号色
+    hilited_candidate_text_color: 0xFFFFFF    # 首选文字色
+    hilited_candidate_back_color: 0xD25D00    # 首选背景色
+    hilited_comment_text_color: 0xFFFFFF      # 首选提示色
+    label_color: 0x7B7B7B                     # 其他候选编号色
+    candidate_text_color: 0x4A4A4A            # 其他候选文字色
+    comment_text_color: 0x7B7B7B              # 其他候选提示字母色
+    border_height: 0                          # 候选高度，大于圆角半径才生效
+    border_width: 0                           # 候选宽度，大于圆角半径才生效
+    border_color_width: 0                     # 候选边框宽度
+    corner_radius: 5                          # 候选圆角半径
+    hilited_corner_radius: 5                  # 首选背景圆角
+    candidate_format: "%c\u2005%@"            # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。"\u2005%c\u2004%@\u2005"
+    inline_preedit: true                      # 内嵌编码
+    horizontal: true                          # 候选横向
+    label_font_point: 12                      # 候选编号字号
+    font_point: 16                            # 候选文字字号
+    label_font_face: "PingFangSC-Regular"     # 候选编号字体
+    font_face: "PingFangSC-Regular"           # 候选文字字体
+    
+  "preset_color_schemes/System_dark":
+    name: "System_dark"
+    author: "Skyearn"
+    color_space: display_p3                   # 色彩空间
+    back_color: 0x1C1C1C                      # 候选背景色
+    border_color: 0x1C1C1C                    # 候选边框色
+    text_color: 0x1C1C1C                      # 内选文字色
+    hilited_text_color: 0x838383              # 内选编码色
+    hilited_back_color: 0x1C1C1C              # 内选背景色
+    hilited_candidate_label_color: 0xFFFFFF   # 首选编号色
+    hilited_candidate_text_color: 0xFFFFFF    # 首选文字色
+    hilited_candidate_back_color: 0xCC5B00    # 首选背景色
+    hilited_comment_text_color: 0xFFFFFF      # 首选提示色
+    label_color: 0x838383                     # 其他候选编号色
+    candidate_text_color: 0xEDEDED            # 其他候选文字色
+    comment_text_color: 0x838383              # 其他候选提示字母色
+    border_height: 0                          # 候选高度，大于圆角半径才生效
+    border_width: 0                           # 候选宽度，大于圆角半径才生效
+    border_color_width: 0                     # 候选边框宽度
+    corner_radius: 5                          # 候选圆角半径
+    hilited_corner_radius: 5                  # 首选背景圆角
+    candidate_format: "%c\u2005%@"            # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。"\u2005%c\u2004%@\u2005"
+    inline_preedit: true                      # 内嵌编码
+    horizontal: true                          # 候选横向
+    label_font_point: 12                      # 候选编号字号
+    font_point: 16                            # 候选文字字号
+    label_font_face: "PingFangSC-Regular"     # 候选编号字体
+    font_face: "PingFangSC-Regular"           # 候选文字字体
+
+  "preset_color_schemes/Transparent":
+    name: "Transparent"
+    author: "Skyearn"
+    color_space: display_p3                   # 色彩空间
+    back_color: 0x00FFFFFF                    # 候选背景色
+    border_color: 0x00FFFFFF                  # 候选边框色
+    text_color: 0x00FFFFFF                    # 内选文字色
+    hilited_text_color: 0x00FFFFFF            # 内选编码色
+    hilited_back_color: 0x00FFFFFF            # 内选背景色
+    hilited_candidate_label_color: 0x00FFFFFF # 首选编号色
+    hilited_candidate_text_color: 0x00FFFFFF  # 首选文字色
+    hilited_candidate_back_color: 0x00D25D00  # 首选背景色
+    hilited_comment_text_color: 0x00FFFFFF    # 首选提示色
+    label_color: 0x007B7B7B                   # 其他候选编号色
+    candidate_text_color: 0x004A4A4A          # 其他候选文字色
+    comment_text_color: 0x007B7B7B            # 其他候选提示字母色
+    border_height: 0                          # 候选高度，大于圆角半径才生效
+    border_width: 0                           # 候选宽度，大于圆角半径才生效
+    border_color_width: 0                     # 候选边框宽度
+    corner_radius: 5                          # 候选圆角半径
+    hilited_corner_radius: 5                  # 首选背景圆角
+    candidate_format: "%c\u2005%@"            # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。"\u2005%c\u2004%@\u2005"
+    inline_preedit: true                      # 内嵌编码
+    horizontal: true                          # 候选横向
+    label_font_point: 12                      # 候选编号字号
+    font_point: 16                            # 候选文字字号
+    label_font_face: "PingFangSC-Regular"     # 候选编号字体
+    font_face: "PingFangSC-Regular"           # 候选文字字体
+
+  app_options:
+    co.zeit.hyper:
+      ascii_mode: false
+    com.alfredapp.Alfred:
+      ascii_mode: false
+    com.apple.Spotlight:
+      ascii_mode: false
+    com.apple.Terminal:
+      ascii_mode: false
+      no_inline: false
+    com.apple.dt.Xcode:
+      ascii_mode: false
+    com.barebones.textwrangler:
+      ascii_mode: false
+    com.blacktree.Quicksilver:
+      ascii_mode: false
+    com.github.atom:
+      ascii_mode: false
+    com.google.Chrome:
+      inline: false
+    com.googlecode.iterm2:
+      ascii_mode: false
+      no_inline: false
+    com.macromates.TextMate.preview:
+      ascii_mode: false
+    com.microsoft.VSCode:
+      ascii_mode: false
+    "com.runningwithcrayons.Alfred-2":
+      ascii_mode: false
+    com.sublimetext.2:
+      ascii_mode: false
+    org.gnu.Aquamacs:
+      ascii_mode: false
+    org.gnu.Emacs:
+      ascii_mode: false
+      no_inline: false
+    org.vim.MacVim:
+      ascii_mode: false
+      no_inline: false
+      vim_mode: false
+    ru.keepcoder.Telegram:
+      inline: false
